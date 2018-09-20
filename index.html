@@ -248,6 +248,21 @@ body {
 	font-size: small;
 	padding-right: 50px;
 }
+.illistrator_txt {
+	text-align: left;
+	color: #333333;
+	font-size: small;
+	width: 250px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.indesign_txt {
+	text-align: right;
+	color: #333333;
+	font-size: small;
+	width: 230px;
+	padding-right: 50px;
+}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -448,11 +463,12 @@ img {vertical-align: middle;}
 <body>
 <header class="mainheader">
 	<ul>
-		<li><a class="active" href="#home">Home</a></li>
-		<li><a href="#skills">Skills</a></li>
-		<li><a href="#pastwork">Past Work</a></li>
-		<li><a href="#aboutme">About Me</a></li>
 		<li><a href="#contactme">Contact Me</a></li>
+		<li><a href="#education">Education</a></li>
+		<li><a href="#pastwork">Past Work</a></li>
+		<li><a href="#skills">Skills</a></li>
+		<li><a href="#aboutme">About Me</a></li>
+		<li><a class="active" href="#home">Home</a></li>
 	</ul>
   	<img src="pictures/top_banner_someshnarine_website.png" width="2500" height="1440" id="home"> 
 	<section class="topsection">
@@ -479,7 +495,7 @@ img {vertical-align: middle;}
 	  </article>
 	<img src="pictures/excell_word_powerpoint.png" width="1000px" height="150px">
 	<article class="middle_text">
-		My go to for workflow management is as shown above: Excel, Word then PowerPoint. Over years of using Excel I have discoverer and learned more features that refine raw data and help me come to conclusions. Up next is Word where the first step of refinement begins, going through data and pulling what out what has value is a skill I was forced to pick up quickly as I started College. PowerPoint stopped being about who had the coolest transitions and started to become a show and tell of what information does my audience really care about.
+		My go to for workflow management is as shown above: Excel, Word then PowerPoint. Over years of using Excel I have discoverer and learned more features that refine raw data and help me come to conclusions. Up next is Word where the first step of refinement begins, going through data and pulling what out what has value is a skill I was forced to pick up quickly as I started College. PowerPoint stopped being about who had the coolest transitions and started to become a show and tell of who can identify what infromation provides the most value and will persuae the audience to agree with you.
 	</article>
 <section class="table">
 	<table class="ps_table" width="300" border="0">
@@ -488,16 +504,26 @@ img {vertical-align: middle;}
       <td>
 		<article class="photoshop_text">
 		  <p><b>Photoshop</b></p>
-		  	<p>Photoshop is what got the ball rolling for me. After a introduction class in highschool it sparked an intrest in me, after that I continued to grown my skills and learn more about graphic design. 
+		  	<p>Photoshop is what got the ball rolling for me. After a introduction class in highschool it sparked an intrest in me for graphic design, after that I continued to grown my skills and learn more about graphic design. 
 			</p>
 		</article>
 		</td>
       <td ><section class="photoshop_logo"></section></td>
       <td><section class="illistrator_logo"></section></td>
-      <td></td>
+      <td>
+		<article class="illistrator_txt">
+		<p> <b>Illistrator</b> </p>
+			<p>My Photoshop skills helped when learnig Illitrator. Now Illistrator is my defualt program for making logos and vector images.</p>
+		 </article>
+		</td>
     </tr>
     <tr>
-      <td></td>
+      <td>
+		<article class="indesign_txt">
+		<p> <b>InDesign</b> </p>
+			<p>Indesign is the best tool I have used for creating printed items like brochures and booklets.It easily intergrats with other Adobe programs like Photoshop and Illistrtor. This is a big benifit because it keep the quality of work consistant.</p>
+		 </article>
+	  </td>
       <td><section class="indesign_logo"></section></td>
       <td><section class="dreamweaver_logo"></section></td>
       <td>
@@ -586,7 +612,7 @@ function showSlides(n) {
 	<p>My work experience in marketing started off as a highschool Co-Op placment at Eventastic in Waterloo in 2016 after my palacment I was hired on for the summer and again for the following summer (2017). During my time at Eventastic I made logos, business cards, brochures, promotional videos and other marketing material. While I was worrking at Eventastic my boss became the interm CEO for Waterloo Central Railway(WCR). At this point the focous shifted to updating and rebranding WCR material such as their website, brochures etc. During this peiod I got the chance to design a commremitive coin for the rialroad. The following year the focous was on planning out events for the upcomming year, getting local business to partner with the railway and selling tickets for the train.</p>
 	</article>
 </section>
-<section class="education">
+<section class="education" id="education">
 	<article class="education_title">
 	<p>Education</p>
 	</article>
@@ -603,7 +629,7 @@ function showSlides(n) {
 	</article>
 	<article class="contact_txt">
 		<img src="pictures/phone_icon.png" width="40" height="70"> (226) 751-3315 
-		<img src="pictures/email_icon.png" width="40" height="32"> <a class="menulinktext" href="mailto:someshnarine@gmail.com">someshnarine@gmail.com</a>
+		<img src="pictures/email_icon.png" width="40" height="32"> <a class="emaillink" href="mailto:someshnarine@gmail.com">someshnarine@gmail.com</a>
 		<img src="pictures/location_icon_2.png" width="40" height="60"> Kitichener & surounding areas
 	</article>
 	
